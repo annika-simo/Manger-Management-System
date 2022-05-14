@@ -25,7 +25,7 @@ In this lab, you are going to write the [MVP](https://en.wikipedia.org/wiki/Mini
 
 In order to build such a system, you must implement several classes. First, you will implement classes for each of the types of adoptables. The adoptables will have member variables that correspond to each of the attributes given above. The adoptables will have getter methods for the adoptable's first name (`getFirstName`), last name (`getLastName`), type (`getType`), whether they are vaccinated (`hasShot`) and whether they have adoption restrictions (`hasRestrictions`).
 
-Second, you will implement the MMS class. For this class you will implement methods for counting the shelter's inventory according to various parameters.
+Second, you will implement the *MMS* class. For this class you will implement methods for counting the shelter's inventory according to various parameters.
 
 Take charge of your code for this lab -- [don't let the tail wag the dog.](https://en.wikipedia.org/wiki/Wag_the_Dog)
 
@@ -40,9 +40,9 @@ Remember that there are three different types of adoptables. Your inheritance hi
 3. Entities in the hierarchy must be labeled with their attributes -- place the attributes in the most general place in the hierarchy to reduce the amount of code that you have to write!
 
 ## Programming Task
-Your programming task is to implement a class to hold adoptables (and derived classes for cats, dogs and turtles) and a class for the MMS.
+Your programming task is to implement a class to hold adoptables (and derived classes for cats, dogs and turtles) and a class for the *MMS*.
 
-You will name your adoptables base class Adoptable. You will name the derived classes Dog, Cat and Turtle.
+You will name your adoptables base class `Adoptable`. You will name the derived classes `Dog`, `Cat` and `Turtle`.
 
 The adoptables have the following *private* named attributes:
 
